@@ -1,33 +1,33 @@
-
+import { SpaceBarRounded } from '@material-ui/icons';
+import React from 'react';
 
 function Header (props) {
 
     return (
 
         <header className="Row-block-centre">
-            <div id="homelink">
+            <span id="homelink">
                 <a href="#/">
-                    <h1> Home </h1>
 
+                    <h1> Home </h1>
 
                 </a>
 
-             </div>
+             </span>
 
-             <div id="aboutlink">
+             <span id="aboutlink">
                  <a href="/about">
                      <h1> About </h1>
                  </a>
 
-             </div>
+             </span>
 
-             <div id="basketlink">
+             <span id="basketlink" style = {{ color: "yellow"}}>
                  <a href="/basket">
                    <h1> Basket {props.itemCount}</h1>
                  </a>
 
-
-             </div>
+             </span>
 
             
 </header>

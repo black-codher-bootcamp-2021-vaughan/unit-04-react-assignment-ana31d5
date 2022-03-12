@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './Styles/App.css';
 import ListOfProducts from './models/data.json';
 import Product from './components/Product';
 import ProductList  from './components/ProductList';
@@ -55,7 +56,7 @@ function App() {
       <div>
 
         <Basket>
-          
+
         </Basket>
 
 

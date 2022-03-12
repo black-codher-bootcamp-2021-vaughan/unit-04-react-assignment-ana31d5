@@ -1,13 +1,27 @@
 .App {
   text-align: center;
 
-}
+};
 
 .Row {
   display: flex;
   justify-content: space-around;
-  
-}
 
+};
+
+ 
+.block {
+  padding: 1rem;
+  background-color: beige;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+
+};
+
+.Row-block-centre {
+  align-items: center;
+  color: yellow;
+
+}
 
 
